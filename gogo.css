@@ -24,14 +24,16 @@ div.L-logo {
 }
 
 div.L-header-info {
-    width: 220.32px;
     height: 51px;
+    display: flex;
+    justify-content: start;
 }
 
 div.L-header-menu {
     width: 69px;
     height: 53.2px;
 }
+
 div.L-highlights {
     height: 330px;
 }
