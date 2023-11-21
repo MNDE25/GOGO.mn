@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+/*@media (min-width:960px) {
+
+}*/
+
+div.L-text {
+    text-align: center;
+    border: 2px solid black;
+    height: 50px;
+}
+
+header {
+    height: 53.2px;
+    margin: 0;
+    display: flex;
+}
+
+div.L-logo {
+    width: 90px;
+    height: 46.83px;
+}
+
+div.L-header-info {
+    width: 220.32px;
+    height: 51px;
+}
+
+div.L-header-menu {
+    width: 69px;
+    height: 53.2px;
+}
+div.L-highlights {
+    height: 330px;
+}
+
+div.L-home-tab {
+    height: 36;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    color: black;
+}
