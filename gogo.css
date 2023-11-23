@@ -9,7 +9,8 @@ body {
 div.L-text {
     text-align: center;
     border: 2px solid black;
-    height: 50px;
+    height: 100%;
+    width: 100%;
 }
 
 header {
