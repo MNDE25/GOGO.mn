@@ -56,13 +56,6 @@ div.L-story-section {
     padding-right: 15px;
 }
 
-@media (min-width:640px) {
-    div.L-story-section {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
-
 div.L-story-tittle {
     height: 25.5px;
     margin-bottom: 20px;
@@ -70,8 +63,15 @@ div.L-story-tittle {
 
 div.L-story-slide {
     height: 235px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow: scroll;
 }
 
-/* @media (min-width:640px) {
-
-}*/
+div.L-story {
+    height: 100%;
+    border: 2px solid black;
+    width: calc(50vw-7.5px);
+    height: 100%;
+}
