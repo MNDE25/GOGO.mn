@@ -9,8 +9,8 @@ body {
 div.L-text {
     text-align: center;
     border: 2px solid black;
-    height: 100%;
-    width: 100%;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
 }
 
 header {
@@ -71,12 +71,12 @@ div.L-story-slide {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    width: calc( ( 20 * 50vw - 30px / 2 ) + 19 * 15px);
+    width: calc((20 * (50vw - (45px / 2))) + (19 * 15px));
 }
 
 div.L-story {
     height: 100%;
-    width: calc( 50vw - 45px / 2 );
+    width: calc(50vw - 45px / 2);
 }
 
 div.L-content-body {
@@ -88,7 +88,7 @@ div.L-content-body {
 div.L-news-item {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px dashed rgba(0,0,0,.08);
+    border-bottom: 1px dashed rgba(0, 0, 0, .08);
     height: 110px;
 }
 
@@ -101,7 +101,8 @@ a.ad {
     font-size: 10px;
     color: gray;
     text-decoration: unset;
-    font-family: 'Roboto',sans-serif,Arial;;
+    font-family: 'Roboto', sans-serif, Arial;
+    ;
     font-weight: 300;
 }
 
@@ -116,7 +117,6 @@ div.L-content-lower {
 }
 
 div.L-casts {
-    margin-bottom: 20px;
     padding: 0px 15px;
 }
 
@@ -132,7 +132,7 @@ div.L-casts-item {
     margin-top: 15px;
 }
 
-div.L-content-lower :nth-child(2) {
+div.L-casts :nth-child(2) {
     height: 350px;
 }
 
@@ -147,15 +147,79 @@ div.L-style-tittle {
     margin-bottom: 20px;
 }
 
-div.L-style-slide {
-    width: calc((50vw-(15px+7.5px))+30px+(5*15px)); 
-    height: 360px;
-    display: flex;
-    gap: 15px;
-    overflow: hidden;
+div.L-style-slider {
+    overflow: scroll;
+    width: 100%;
+    margin-top: 20px;
 }
 
-div.L-style-iten {
+div.L-style-slide {
+    width: calc((6 * (50vw - (45px / 2))) + (5 * 15px));
     height: 360px;
-    width: calc(50vw-(15px+7.5px));
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+div.L-style-item {
+    height: 100%;
+    width: calc(50vw - 22.5px);
+}
+
+div.L-tech {
+    margin-top: 60px;
+    padding: 0 15px;
+    height: 347.83px;
+}
+
+div.L-tech-tittle {
+    margin-bottom: 20px;
+    height: 27.83px;
+}
+
+div.L-tech-slider {
+    height: 300px;
+    overflow: scroll;
+}
+
+div.L-tech-slide {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: calc((6 * (50vw - (45px / 2))) + (5 * 15px));
+    height: 100%;
+}
+
+div.L-tech-item {
+    height: 100%;
+    width: calc(50vw - 22.5px);
+}
+
+div.L-comic {
+    margin-top: 60px;
+    padding: 0 15px;
+    height: 378.83px;
+}
+
+div.L-comic-tittle {
+    margin-bottom: 20px;
+    height: 28.83px;
+}
+
+div.L-comic-slider {
+    height: 330px;
+    overflow: scroll;
+}
+
+div.L-comic-slide {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 100%;
+    width: calc(6 * (100vw - (30px)) + ( 5 * 15px ));
+}
+
+div.L-comic-item {
+    height: 100%;
+    width: calc(100vw - (30px));
 }
