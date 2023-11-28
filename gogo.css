@@ -148,5 +148,14 @@ div.L-style-tittle {
 }
 
 div.L-style-slide {
-    width: 1000px; 
+    width: calc((50vw-(15px+7.5px))+30px+(5*15px)); 
+    height: 360px;
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+}
+
+div.L-style-iten {
+    height: 360px;
+    width: calc(50vw-(15px+7.5px));
 }
