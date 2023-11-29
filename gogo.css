@@ -216,10 +216,53 @@ div.L-comic-slide {
     flex-direction: row;
     gap: 15px;
     height: 100%;
-    width: calc(6 * (100vw - (30px)) + ( 5 * 15px ));
+    width: calc(6 * (100vw - (30px)) + (5 * 15px));
 }
 
 div.L-comic-item {
     height: 100%;
     width: calc(100vw - (30px));
+}
+
+div.L-videos {
+    margin-top: 60px;
+    padding-top: 50px;
+    background-color: #1A1A21;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+div.L-videos-tittle {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+div.L-videos-item {
+    margin-top: 15px;
+    height: 262px;
+}
+
+div.L-photos-item {
+    margin-top: 15px;
+    height: 262px;
+}
+
+div.L-footer {
+    padding: 50px 15px;
+}
+
+footer.L-up {
+    max-height: 435.1px;
+    min-height: 134.48px;
+}
+
+hr.L-footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #6c6c6c;
+}
+
+footer.L-bottom {
+    max-height: 350px;
+    min-height: 71.4px;
 }
