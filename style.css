@@ -1,5 +1,13 @@
+a.head-logo {
+    height: 43.83px;
+    margin-top: 3px;
+    padding: 10px;
+    display: block;
+}
 
-
+img.head-logo {
+    width: 70px;
+}
 
 img.ad {
     width: 100%;
