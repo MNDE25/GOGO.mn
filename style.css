@@ -1,0 +1,16 @@
+
+
+
+img.ad {
+    width: 100%;
+    height: 100%;
+}
+
+a.ad {
+    font-size: 10px;
+    color: gray;
+    text-decoration: unset;
+    font-family: 'Roboto', sans-serif, Arial;
+    ;
+    font-weight: 300;
+}
