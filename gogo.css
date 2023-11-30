@@ -136,6 +136,15 @@ div.L-casts :nth-child(2) {
     height: 350px;
 }
 
+@media (max-width:500px) {
+    div.L-casts-item {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+}
+
+
 div.L-style {
     margin-top: 60px;
     height: 405.5px;
