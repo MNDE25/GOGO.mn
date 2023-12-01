@@ -9,6 +9,38 @@ img.head-logo {
     width: 70px;
 }
 
+a.wheather {
+    display: block;
+    border: 1px solid rgba(0,0,0,.06);
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-top: 5px;
+}
+
+div.wheather-number {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    gap: 5px;
+}
+
+img.wheather-icon {
+    margin-right: 5px;
+}
+
+div.wheather-degree {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    font-weight: 500;
+}
+
+a.header-menu {
+    display: block;
+    padding: 15px 20px;
+    border-left: 1px solid rgba(0,0,0,.05);
+}
+
 img.ad {
     width: 100%;
     height: 100%;
