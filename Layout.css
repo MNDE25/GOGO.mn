@@ -28,6 +28,7 @@ div.L-header-info {
     height: 51px;
     display: flex;
     flex: 1;
+    max-width: 808px;
 }
 
 div.L-header-menu {

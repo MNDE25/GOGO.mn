@@ -11,40 +11,70 @@ img.head-logo {
 
 a.wheather {
     display: block;
-    border: 1px solid rgba(0,0,0,.06);
+    border: 1px solid rgba(0, 0, 0, .06);
     border-radius: 5px;
     padding: 3px 5px;
     margin-top: 5px;
 }
 
-div.wheather-tittle {
+div.header-info-tittle {
     font-size: 10px;
     line-height: 16px;
     text-align: right;
+    font-family: 'Roboto', sans-serif, Arial;
+    font-weight: 400;
 }
 
-div.wheather-number {
+div.header-info-bottom {
     display: flex;
     align-items: center;
     text-align: right;
+    justify-items: center;
     gap: 5px;
 }
 
-img.wheather-icon {
+img.header-icon {
     margin-right: 5px;
+    margin-left: 0;
 }
 
-div.wheather-degree {
+div.header-info-dollar {
+    color: #2adb00;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: left;
+}
+
+div.header-info-number {
     font-size: 14px;
     line-height: 22px;
     text-align: right;
     font-weight: 500;
 }
 
+a.horoscope {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .06);
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+a.currency {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .06);
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
 a.header-menu {
     display: block;
     padding: 15px 20px;
-    border-left: 1px solid rgba(0,0,0,.05);
+    border-left: 1px solid rgba(0, 0, 0, .05);
 }
 
 img.ad {
