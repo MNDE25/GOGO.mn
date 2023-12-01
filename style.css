@@ -17,6 +17,12 @@ a.wheather {
     margin-top: 5px;
 }
 
+div.wheather-tittle {
+    font-size: 10px;
+    line-height: 16px;
+    text-align: right;
+}
+
 div.wheather-number {
     display: flex;
     align-items: center;
