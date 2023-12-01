@@ -77,6 +77,47 @@ a.header-menu {
     border-left: 1px solid rgba(0, 0, 0, .05);
 }
 
+img.highlight-img {
+    height: 330px;
+    width: 100%;
+    object-fit: cover;
+}
+
+a.three-tab {
+    padding: 7px 0%;
+    display: block;
+    background-color: #212121;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+a.three-tab-middle {
+    padding: 7px 0%;
+    display: block;
+    background-color: #0050a4;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+div.story-tittle {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    font-family: "apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue","Arial","Noto Sans","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+span.story-tittle {
+    color: #fff;
+    padding: 2px 3px;
+    background-color: #00b0f4;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
 img.ad {
     width: 100%;
     height: 100%;
